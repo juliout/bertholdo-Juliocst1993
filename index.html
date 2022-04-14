@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/styles/index.css">
+    <link rel="stylesheet" href="public/styles/global.css">
+
+    <title>Document</title>
+</head>
+
+<body> 
+    <header>
+        <div class="headerTop">
+            <div class="divContactLeft">
+                <span class="contactTitle">ENTRE EM CONTATO CONOSCO</span>
+                <img src="public/images/setadireita.png" alt="" class="setadireita">
+            </div>
+            <div class="divContactRight">
+                <span>	&#40;31&#41;3333-3333 </span>
+                <span>&#149;</span>
+                <span>&#40;31&#41;3333-3333</span>
+                <span>&#149;</span>
+                <span>comercial@comercial.com.br</span>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <img src="public/images/logotipo.png" alt="" class="logotipo">
+
+            <div class="menuBottomTop">
+                <span class="quemsomos">
+                    QUEM SOMOS
+                </span>
+                <div>
+                    <span>GÔNDOLAS</span>
+                    <img src="public/images/dropdwon.png" alt=""/>
+                </div>
+                <div>
+                    <span>MÓVEIS DE AÇO</span>
+                    <img src="public/images/dropdwon.png" alt=""/>
+                </div>
+                <div>
+                    <span>ARMAZENAGEM</span>
+                    <img src="public/images/dropdwon.png" alt=""/>
+                </div>
+                <span>CONTATO</span>
+                <button>
+                    <img src="public/images/lupa.png" alt="" class="lupaImg">
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="bannerC backgroudSlide">
+
+        <div class="bannerBtn-esquerda" onclick="esquerda()">
+            <img src="public/images/setaSilver.png" alt="">
+        </div>
+        <div class="bannerMainDiv">
+            <div class="bannerText">
+                <h1 class="bannerText-titulo">PRODUTOS DIRETO DA FABRICA!</h1>
+                <span class="bannerText-conteudo"> Somos especialistas em gôndolas, porta pallets, racks,
+                    roupeiros, estantes, e mais diversos outros itens 
+                    para organizar o armazenamento de produtos.
+                </span>
+                <h2 class="bannetText-SubTitulo">Solicite seu orçamento agora e monte sua loja com quem entende de aço!</h2>
+                <button class="bannerText-btn">QUERO FAZER UM ORÇAMENTO</button>
+            </div>
+            
+        </div>
+        <div class="bannerBtn-direita" onclick="direita()">
+            <img src="public/images/setaSilver.png" alt="">
+        </div>
+    </div>
+
+    <div class="options">
+        <div class="opDiv bg1">
+            <h1 class="opTitle">Quer ser um colaborador ou representante?</h1>
+            <button class="opBtn">PREENCHA SEUS DADOS</button>
+        </div>
+        <div class="opDiv bg2">
+            <h1 class="opTitle">Venda exclusiva para lojistas através do WhatsApp:</h1>
+            <button class="opBtn">CONVERSE COM A GENTE</button>
+        </div>
+        <div class="opDiv bg3">
+            <h1 class="opTitle">Gostou de algum dos nossos produtos?</h1>
+            <button class="opBtn">FAÇA SEUS CADASTRO</button>
+        </div>
+        <div class="opDiv bg4">
+            <h1 class="opTitle">Seja um revendedos agora mesmo!</h1>
+            <button class="opBtn">FAÇA SEUS CADASTROS</button>
+        </div>
+        
+    </div>
+
+    <div class="store">
+        <div class="storeTitle">
+            <h1>Nossos produtos</h1>
+        </div>
+
+        <div class="storeBottom">
+            <div class="divSetaEsquerda" onclick="irEsquerda()">
+                <img src="public/images/seta2direita.png" alt="">
+            </div>
+            
+            <div class="carrousel2">
+                <div class="cardProdutos" id="produto1">
+                    <img src="public/images/gondola1.png" alt="">
+                    <div>
+                        <h2>GÔNDOLA</h2>
+                        <p>XYZ</p>
+                    </div>
+                    <div>
+                        <h1>R$199,00</h1>
+                        <p>ou 6x de R$ 49,90</p>
+                    </div>
+                </div>
+                <div class="cardProdutos" id="produto2">
+                    <img src="public/images/gondola2.png" alt="">
+                    <div>
+                        <h2>GÔNDOLA</h2>
+                        <p>XYZ</p>
+                    </div>
+                    <div>
+                        <h1>R$119,00</h1>
+                        <p>ou 6x de R$ 29,90</p>
+                    </div>
+                </div>   
+                <div class="cardProdutos" id="produto3">
+                    <img src="public/images/gondola3.png" alt="">
+                    <div>
+                        <h2>GÔNDOLA</h2>
+                        <p>XYZ</p>
+                    </div>
+                    <div>
+                        <h1>R$139,00</h1>
+                        <p>ou 6x de R$ 22,31</p>
+                    </div>
+                </div>   
+                <div class="cardProdutos" id="produto4">
+                    <img src="public/images/gondola4.png" alt="">
+                    <div>
+                        <h2>GÔNDOLA</h2>
+                        <p>XYZ</p>
+                    </div>
+                    <div>
+                        <h1>R$139,00</h1>
+                        <p>ou 6x de R$ 22,31</p>
+                    </div>
+                </div>      
+            </div>
+            
+            <div class="divSetaDireita" onclick="irDireita()">
+                <img src="public/images/seta2direita.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contactWpp">
+        <img src="public/images/wpp.png" alt="">
+        <div class="divContactWpp">
+            <h1>SOLICITE SEU ORÇAMENTO PELO WHATSAPP</h1>
+            <h2>VENDA EXCLUSIVA PARA LOJISTAS </h2>
+            <button> CONVERSE COM A GENTE</button>
+        </div>
+
+    </div>
+    <div class="cadastro">
+        <div class="divCadastroLeft">
+            <div>
+                <h1>
+                    SEJA UM REVENDEDOR E <span>OBTENHA GRANDES LUCROS</span> EM SUAS VENDAS!
+                </h1>
+                <h2>
+                    Cadastre-se usando o formulário ao lado
+                </h2>
+            </div>
+        </div>
+     
+        <div class="divCadastroRight">
+            
+            <form action="" class="formCadastro">
+
+                <div class="fistLineForm">
+                    <div>
+                        <span>Nome <span class="redColor">*</span></span>
+                        <input type="text"/>
+                    </div>
+                    <div>
+                        <span>Sobrenome<span class="redColor">*</span></span>
+                        <input type="text"/>
+                    </div>
+                </div>
+    
+                <div class="secondLineForm">
+                    <span>E-mail <span class="redColor">*</span></span>
+                    <input type="text" name="" id="">
+                </div>
+    
+                <div class="fistLineForm">
+                    <div>
+                        <span>Telefone <span class="redColor">*</span></span>
+                        <input type="text" name="" id=""/>
+                    </div>
+                    <div>
+                        <span>Link para seu curriculo<span class="redColor">*</span></span>
+                        <input type="text" name="" id=""/>
+                    </div>
+                </div>
+                <button>ENVIAR MEU CADASTRO</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="allContact">
+        <div class="contactLeft">
+            <div class="divContactGeral">
+
+                <img src="public/images/logotipo.png" alt="">
+
+                <div class="divContactBottom">
+                    <ul class="leftCB ">
+                        <li class="fntPoppins">QUEM SOMOS</li>
+                        <li>GÔNDOLAS</li>
+                        <li>MÓVEIS DE AÇO</li>
+                        <li>ARMAZENAGEM</li>
+                        <li>CONTATO</li>
+                    </ul>
+                    
+                    <div class="rightCB">
+                        <ul>
+                            <li>FAÇA SEU ORÇAMENTO</li>
+                            <li>SEJA UM COLABORADOR</li>
+                        </ul>
+                        <div class="redes">
+                            <span>SIGA-NOS NAS REDES</span>
+                            <div>
+                                <img src="public/images/fbicon.png" alt=""/>
+                                <img src="public/images/instaicon.png" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contactRight">
+            <div class="divRight">
+                <div class="address1">
+                    <p class="padraop">LOJA &#149; BH &#40;a 5km do centro!&#41;</p>
+                    <p class="padraop">Av. Professor Mário Werneck, 26 - 2&#176;andar</p>
+                    <p class="padraop">Belo Horizonte - MG, CEP: 30455-610</p>
+                    <p class="padraop">comercial@comercial.com.br</p>
+                    <p class="tell"><img src="public/images/tel.png" alt="">&#40;31&#41; 3333-3333</p>
+                    <p class="tell"><img src="public/images/whappP.png" alt="">&#40;31&#41; 93333-3333</p>
+                </div>
+
+                <div class="address2">
+                    <p class="padraop">LOJA &#149; BH &#40;a 5km do centro!&#41;</p>
+                    <p class="padraop">Av. Professor Mário Werneck, 26 - 2&#176;andar</p>
+                    <p class="padraop">Belo Horizonte - MG, CEP: 30455-610</p>
+                    <p class="padraop">comercial@comercial.com.br</p>
+                    <p class="tell"><img src="public/images/tel.png" alt="">&#40;31&#41; 3333-3333</p>
+                    <p class="tell"><img src="public/images/whappP.png" alt="">&#40;31&#41; 93333-3333</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footerAbsolutLeft">
+            <div class="footerWpp">
+                <img src="public/images/wppW.png" alt="">
+            </div>
+            <div class="footerDropUp">
+                <img src="public/images/dropdwon.png" alt="">
+            </div>
+            
+        </div>
+        <div class="midFooter">
+            <img src="public/images/footermidle.png" alt="">
+        </div>
+        <div class="footerAbsolutRight">
+            <span>ON-LINE! SÓ CHAMAR</span>
+            <img src="public/images/dropdwon.png" alt="">
+        </div>
+        
+
+    </footer>
+<script src="public/js/index.js"></script>
+</body>
+
+</html>
